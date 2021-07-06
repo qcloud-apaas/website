@@ -1,0 +1,44 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "pdf": "npx mr-pdf --initialDocURLs=\"http://localhost:3002/docs/intro\" --contentSelector=\"article\" --paginationSelector=\".pagination-nav__item--next > a\" --excludeSelectors=\".margin-vert--xl a, footer\" --coverImage=\"https://imgcache.qq.com/open_proj/proj_qcloud_v2/Apaas/build/CodePortal/images/logo-apaas173.svg\" --coverTitle=\"Docusaurus v2\""
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-beta.3",
+    "@docusaurus/preset-classic": "2.0.0-beta.3",
+    "@mdx-js/react": "^1.6.21",
+    "@svgr/webpack": "^5.5.0",
+    "clsx": "^1.1.1",
+    "file-loader": "^6.2.0",
+    "prism-react-renderer": "^1.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "url-loader": "^4.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "mr-pdf": "^1.0.5"
+  }
+}
