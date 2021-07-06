@@ -22,27 +22,24 @@ module.exports = {
       items: [
         {
           position: 'left',
-          type: 'doc',
-          docId: 'cli/intro',
-          label: 'CLI',
-        },
-        {
-          position: 'left',
-          label: 'SDK',
-          to: '/docs/sdk',
+          label: '文档',
+          to: '/docs',
           items: [
             {
+              label: 'CLI',
+              to: '/docs/cli',
+            },
+            {
               label: 'JS SDK',
-              to: '/docs/sdk/js-sdk',
+              to: '/docs/js-sdk',
+            },
+            {
+              label: 'Open Api',
+              to: '/docs/open-api',
             },
           ],
         },
-        {
-          position: 'left',
-          label: 'Open API',
-          to: '/docs/open-api',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: '文章', position: 'left'},
         {
           href: 'https://github.com/qcloud-apaas',
           label: 'GitHub',
@@ -62,7 +59,7 @@ module.exports = {
             },
             {
               label: 'JS SDK',
-              to: '/docs/sdk/js-sdk',
+              to: '/docs/js-sdk',
             },
             {
               label: 'Open API',
@@ -74,7 +71,7 @@ module.exports = {
           title: '更多',
           items: [
             {
-              label: 'Blog',
+              label: '文章',
               to: '/blog',
             },
             {
@@ -84,7 +81,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Tencent. Built with Docusaurus.`,
+      copyright: `Copyright © 2013-2020 Tencent Cloud. All Rights Reserved. 腾讯云 版权所有`,
     },
     colorMode: {
       defaultMode: 'light',

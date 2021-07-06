@@ -1,5 +1,5 @@
 ---
-slug: /sdk/js-sdk
+slug: /js-sdk
 ---
 
 # 介绍
