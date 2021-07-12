@@ -1,5 +1,5 @@
 ---
-slug: /cli
+slug: /api/cli
 ---
 
 # 介绍

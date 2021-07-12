@@ -1,9 +1,9 @@
 ---
-slug: /
+slug: /api
 ---
 
 # 分类
 
-* [CLI](/docs/cli)
-* [Web SDK](/docs/web-sdk)
-* [Open API](/docs/open-api)
+- [CLI](/docs/api/cli)
+- [JS SDK](/docs/api/web-sdk)
+- [Open API](/docs/api/open-api)

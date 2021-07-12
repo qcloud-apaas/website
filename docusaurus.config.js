@@ -23,24 +23,35 @@ module.exports = {
       items: [
         {
           position: 'left',
-          label: '文档',
+          label: '开发者文档',
           to: '/docs',
           items: [
             {
-              label: 'CLI',
-              to: '/docs/cli',
-            },
-            {
-              label: 'Web SDK',
-              to: '/docs/web-sdk',
-            },
-            {
-              label: 'Open Api',
-              to: '/docs/open-api',
+              label: '自定义组件指南',
+              to: '/docs/components',
             },
           ],
         },
-        {to: '/blog', label: '文章', position: 'left'},
+        {
+          position: 'left',
+          label: 'API',
+          to: '/docs/api',
+          items: [
+            {
+              label: 'CLI',
+              to: '/docs/api/cli',
+            },
+            {
+              label: 'Web SDK',
+              to: '/docs/api/web-sdk',
+            },
+            {
+              label: 'Open Api',
+              to: '/docs/api/open-api',
+            },
+          ],
+        },
+        { to: '/blog', label: '文章', position: 'left' },
         {
           href: 'https://github.com/qcloud-apaas',
           label: 'GitHub',
@@ -52,19 +63,19 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: '文档',
+          title: 'API',
           items: [
             {
               label: 'CLI',
-              to: '/docs/cli',
+              to: '/docs/api/cli',
             },
             {
               label: 'Web SDK',
-              to: '/docs/web-sdk',
+              to: '/docs/api/web-sdk',
             },
             {
               label: 'Open API',
-              to: '/docs/open-api',
+              to: '/docs/api/open-api',
             },
           ],
         },
@@ -100,14 +111,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./docs/sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/qcloud-apaas/website/edit/master/',
+          editUrl: 'https://github.com/qcloud-apaas/website/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/qcloud-apaas/website/edit/master/',
+          editUrl: 'https://github.com/qcloud-apaas/website/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
