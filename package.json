@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "pdf": "npx mr-pdf --initialDocURLs=\"http://localhost:3002/docs/js-sdk\" --contentSelector=\"article\" --paginationSelector=\".pagination-nav__item--next > a\" --excludeSelectors=\".margin-vert--xl a, footer\" --coverImage=\"https://imgcache.qq.com/open_proj/proj_qcloud_v2/Apaas/build/CodePortal/images/logo-apaas173.svg\" --coverTitle=\"千帆 aPaaS JS SDK v0.1.1\""
+    "pdf": "npx mr-pdf --initialDocURLs=\"http://localhost:3002/docs/web-sdk\" --contentSelector=\"article\" --paginationSelector=\".pagination-nav__item--next > a\" --excludeSelectors=\".margin-vert--xl a, footer\" --coverImage=\"https://imgcache.qq.com/open_proj/proj_qcloud_v2/Apaas/build/CodePortal/images/logo-apaas173.svg\" --coverTitle=\"千帆 aPaaS Web SDK v0.1.1\""
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.3",

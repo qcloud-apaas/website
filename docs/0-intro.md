@@ -5,5 +5,5 @@ slug: /
 # 分类
 
 * [CLI](/docs/cli)
-* [JS SDK](/docs/js-sdk)
+* [Web SDK](/docs/web-sdk)
 * [Open API](/docs/open-api)

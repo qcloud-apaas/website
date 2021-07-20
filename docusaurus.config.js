@@ -30,8 +30,8 @@ module.exports = {
               to: '/docs/cli',
             },
             {
-              label: 'JS SDK',
-              to: '/docs/js-sdk',
+              label: 'Web SDK',
+              to: '/docs/web-sdk',
             },
             {
               label: 'Open Api',
@@ -58,8 +58,8 @@ module.exports = {
               to: '/docs/cli',
             },
             {
-              label: 'JS SDK',
-              to: '/docs/js-sdk',
+              label: 'Web SDK',
+              to: '/docs/web-sdk',
             },
             {
               label: 'Open API',
