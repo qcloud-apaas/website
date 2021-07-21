@@ -5,13 +5,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: '千帆 aPaaS 开发者主页',
   tagline: '像画画一样快速搭建多终端、免运维、可扩展的企业级应用',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://qcloud-apaas.github.io',
+  baseUrl: '/website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'qcloud-apaas', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: '',
