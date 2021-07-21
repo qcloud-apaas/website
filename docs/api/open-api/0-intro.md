@@ -1,5 +1,5 @@
 ---
-slug: /open-api
+slug: /api/open-api
 ---
 
 # 介绍
