@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>千帆 aPaaS 开发者主页 Blog</title>
+        <link>https://qcloud-apaas.github.io/website/blog</link>
+        <description>千帆 aPaaS 开发者主页 Blog</description>
+        <lastBuildDate>Tue, 06 Jul 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[欢迎使用千帆 aPaaS 应用连接器]]></title>
+            <link>https://qcloud-apaas.github.io/website/blog/welcome</link>
+            <guid>welcome</guid>
+            <pubDate>Tue, 06 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[千帆 aPaaS 应用连接器是一款专注于企业级应用可持续开发管理的可视化、集成开放的高效能云上应用连接器。支持图形化创建模型，企业可通过拖拉拽的方式进行页面二次开发，并通过图形化流程编排，将内部多个 SaaS 应用按业务逻辑和审批流程进行自定义连接，技术门槛低，灵活性高。千帆 aPaaS 应用连接器与企业微信无缝连接，应用开发完成后可快速发布到企业微信，助力企业服务更高效的触达客户。]]></description>
+        </item>
+    </channel>
+</rss>
