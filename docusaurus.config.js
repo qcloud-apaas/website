@@ -21,17 +21,8 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          position: 'left',
-          label: '开发者文档',
-          to: '/docs',
-          items: [
-            {
-              label: '自定义组件指南',
-              to: '/docs/components',
-            },
-          ],
-        },
+        { to: '/docs/product', label: '产品手册', position: 'left' },
+        { to: '/docs/components', label: '自定义组件', position: 'left' },
         {
           position: 'left',
           label: 'API',
