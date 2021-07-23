@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qcloud-apaas.github.io/website/blog</id>
-    <title>千帆 aPaaS 开发者主页 Blog</title>
+    <title>千帆 aPaaS 帮助中心 Blog</title>
     <updated>2021-07-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qcloud-apaas.github.io/website/blog"/>
-    <subtitle>千帆 aPaaS 开发者主页 Blog</subtitle>
+    <subtitle>千帆 aPaaS 帮助中心 Blog</subtitle>
     <icon>https://qcloud-apaas.github.io/website/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[欢迎使用千帆 aPaaS 应用连接器]]></title>
