@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: '千帆 aPaaS 开发者主页',
+  title: '千帆 aPaaS 帮助中心',
   tagline: '像画画一样快速搭建多终端、免运维、可扩展的企业级应用',
   url: 'https://qcloud-apaas.github.io',
   baseUrl: '/website/',
