@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 ## 功能简介
 千帆玉符 IDaaS 是千帆应用连接器的重要组成部分，聚焦于企业各系统应用间统一用户、统一身份认证、单点登录等功能，实现一个账号登录所有应用。本文适用于客户用户数据已经同步至玉符 IDaaS 的场景，通过下文配置将玉符 IDaaS 作为千帆 aPaaS 用户数据源。
 
@@ -14,7 +18,7 @@
 
 ## **获取玉符 Domain 和 Service Account**
 1. 登录千帆玉符管理后台。
->?线下开通后，每位租户会有一个独立的登录链接，由工作人员进行提供。
+>线下开通后，每位租户会有一个独立的登录链接，由工作人员进行提供。
  ![img](https://main.qcloudimg.com/raw/b0f87e203eae9c066382b5b991eb6f2c.png)        
 2. 从地址栏获取 Domain 信息，并将其填入配置页面对应字段。例如：`https://apaas-test-admin.cig.tencentcs.com/#/，-admin` 前面的 apaas-test 即为 Domain。
  ![img](https://main.qcloudimg.com/raw/3967e9a1a5eda7074e60e3789ab87141.png)        
@@ -24,7 +28,7 @@
 
 ## 创建玉符 OIDC 类型应用
 1. 登录千帆玉符管理后台，定位到“应用管理”。
->?线下开通后，每位租户会有一个独立的登录链接，由工作人员进行提供。
+>线下开通后，每位租户会有一个独立的登录链接，由工作人员进行提供。
  ![img](https://main.qcloudimg.com/raw/8c45332448720d66ff5f0b27e8c2f873.png)        
 2. 单击【添加应用】，选择“创建自定义应用”进入创建应用页面。
   ![img](https://main.qcloudimg.com/raw/30aab6ad45ca7d22845c9c4051d4e7f3.png)        
