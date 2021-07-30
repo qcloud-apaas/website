@@ -84,7 +84,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © 2013-2020 Tencent Cloud. All Rights Reserved. 腾讯云 版权所有`,
+      copyright: `Copyright © 2013-2021 Tencent Cloud. All Rights Reserved. 腾讯云 版权所有`,
     },
     colorMode: {
       defaultMode: 'light',
